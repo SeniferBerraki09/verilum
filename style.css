@@ -1,0 +1,145 @@
+h1
+{
+	color:#d72638;
+	font-size:75px;	
+	font-family:"Lobster Two", sans-serif;;
+	background-color:#1c2a4c ;
+}
+html
+{
+	background-color:#e0e0e0;
+}
+main
+{
+	font-size:20px;
+	color:#1c2a4c;
+}
+.monimage
+{
+	text-align:center;
+	margin-top:50px ;
+}
+footer 
+{
+	color:#d72638;
+	background-color:#1c2a4c ;
+	font-size: 2SS0px;
+}
+nav a 
+{
+	font-size: 30px;
+	color:#d72638;
+	margin-right:30px;
+	margin-left:30px;
+}
+nav 
+{
+	text-align: center;
+	font-size:30px;
+	padding: px;
+	border-bottom: 50px;
+}
+
+header
+{
+	background color: orangered;
+	padding: 10px 20 px;
+    text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+p1
+ {
+ 	font-size: 150px;
+ 	margin-top: 50px;
+ }
+ p2
+ {
+ 	font-size:70px;
+ }
+
+.text-principal
+{
+	margin:30px;
+}
+.sous-texte
+{
+	margin-left:20px;
+}
+p3
+{
+	font-size: 70px;
+}
+p4
+{
+	font-size:120px;
+}
+
+
+.conteneur {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* important pour aligner en haut */
+  gap: 60px; /* espace entre les deux blocs */
+  margin: 20px;
+}
+
+.bloc {
+  color: #0a1e44;
+}
+
+.bloc h2 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.bloc .annee {
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.bloc .ligne {
+  font-size: 100px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+p{
+	margin: 30px;
+}
+ul 
+{
+	margin: 30px;
+}
+p5
+{
+	margin:30px;
+}
+
+.sen
+{
+	margin-right: 5px;
+}
+.jo 
+{
+	margin-left: 5px;
+}
+.verilum
+{
+	margin-top:5px;
+}
+.moun 
+{
+	margin-left:5px;
+}
+.discussion
+{
+	margin-top:30px ;
+}
+.test 
+{
+	margin-top:30px;
+}
+.apropos 
+{
+	margin-top:30px;
+}
