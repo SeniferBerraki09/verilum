@@ -4,7 +4,89 @@ h1
 	font-size:75px;	
 	font-family:"Lobster Two", sans-serif;;
 	background-color:#1c2a4c ;
+
 }
+.anim-titre {
+  color: #d72638;
+  font-size: 75px;
+  font-family: "Lobster Two", sans-serif;
+  background-color: #1c2a4c;
+  display: inline-block;
+  animation: bouge 2s ease-in-out infinite alternate;
+}
+
+@keyframes bouge {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(150px);
+  }
+}
+{
+  color: #d72638;
+  font-size: 75px;
+  font-family: "Lobster Two", sans-serif;
+  background-color: #1c2a4c;
+  display: inline-block;
+  animation: montee 2s ease-in-out infinite alternate;
+}
+/*body {
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}*/
+
+.anim-titre2 {
+  position: absolute;
+  font-size: 3em;
+  color:#d72638 ;
+  animation: bouger 8s infinite ease-in-out alternate;
+}
+
+/* Animation qui bouge et fait tourner le titre dans plusieurs directions */
+@keyframes bouger {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  15% {
+    transform: translate(45px, 45px) rotate(30deg);
+  }
+  30% {
+    transform: translate(-200px, 200px) rotate(-45deg);
+  }
+  45% {
+    transform: translate(150px, -150px) rotate(90deg);
+  }
+  60% {
+    transform: translate(-250px, -100px) rotate(-60deg);
+  }
+  75% {
+    transform: translate(200px, 200px) rotate(120deg);
+  }
+  90% {
+    transform: translate(-150px, -150px) rotate(-90deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+
+@keyframes montee {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
 html
 {
 	background-color:#e0e0e0;
